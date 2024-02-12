@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "822148204825",
+    "project_id": "fir-13560",
+    "storage_bucket": "fir-13560.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822148204825:android:628078939b91098f0d9d88",
+        "android_client_info": {
+          "package_name": "com.example.autism"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMI8x9uIiSEvof3faBq-50WNwrKA_F6N0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
