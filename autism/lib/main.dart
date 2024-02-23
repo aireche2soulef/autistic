@@ -1,8 +1,18 @@
-// ignore_for_file: prefer_const_constructors
+// ignore_for_file: prefer_const_constructors, use_super_parameters
 
 import 'package:autism/auth.dart';
+import 'package:autism/enfant/jeux/PuzzleGame.dart';
+import 'package:autism/enfant/jeux/jeux.dart';
+import 'package:autism/enfant/jeux/puzzle.dart';
+import 'package:autism/enfant/jeux/puzzleSoeur.dart';
+import 'package:autism/enfant/profilEnfant.dart';
+
+import 'package:autism/enfant/welcomE.dart';
+import 'package:autism/phoniatre/welcomP.dart';
+import 'package:autism/screens/enfantlogin.dart';
 import 'package:autism/screens/home_screen.dart';
 import 'package:autism/screens/login_screen.dart';
+import 'package:autism/screens/phoniatrelogin.dart';
 import 'package:autism/screens/signup_screen.dart';
 
 import 'package:flutter/material.dart';
@@ -34,11 +44,21 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       //home: Auth(),
+
       routes: {
         '/': (context) => const Auth(),
-        'homeScreen': (context) => const HomeScreen(),
+        'homeScreen': (context) => HomeScreen(),
         'signupScreen': (context) => const SignupScreen(),
         'loginScreen': (context) => const LoginScreen(),
+        'phoniatreSignupScreen': (context) => const PhoniatreSignupScreen(),
+        'enfantSignupScreen': (context) => const EnfantSignupScreen(),
+        'HomeEnfant': (context) => HomeEnfant(),
+        'Homephoniatre': (context) => Homephoniatre(),
+        'user_profile': (context) => UserProfilePage(),
+        'JeuEnfant': (context) => const JeuEnfant(),
+        'puzzEnfant': (context) => puzzEnfant(),
+        'PuzzleGame': (context) => PuzzleGame(),
+        'PuzzleSOEUR': (context) => PuzzleSOEUR(),
       },
     );
   }
